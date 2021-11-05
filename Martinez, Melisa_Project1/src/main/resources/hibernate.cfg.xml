@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="hibernate.connection.driver_class">
+            org.postgresql.Driver
+        </property>
+
+        <property name="hibernate.dialect">
+            org.hibernate.dialect.PostgreSQL10Dialect
+        </property>
+
+        <property name="hibernate.connection.url">
+            jdbc:postgresql://meli2109postgres.c2ocjiobzajl.us-east-2.rds.amazonaws.com/postgres
+
+            <!-- endpoint: endpoint = "meli2109postgres.c2ocjiobzajl.us-east-2.rds.amazonaws.com" -->
+        </property>
+
+        <property name="hibernate.connection.username">
+            meli
+        </property>
+
+        <property name="hibernate.connection.password">
+            password
+        </property>
+
+        <!-- Optional Properties -->
+        <property name="show_sql">
+            true
+        </property>
+
+        <property name="hbm2ddl.auto">
+            validate
+        </property>
+
+
+        <!-- Class Mappings -->
+        <mapping class="dev.martinez.models.Approval" />
+        <mapping class="dev.martinez.models.Department" />
+        <mapping class="dev.martinez.models.DepartmentHead" />
+        <mapping class="dev.martinez.models.EmployeeDB" />
+        <mapping class="dev.martinez.models.FormDB" />
+        <mapping class="dev.martinez.models.GradingFormat" />
+        <mapping class="dev.martinez.models.ReimbursementEvent" />
+        <mapping class="dev.martinez.models.SupervisorEmployee" />
+
+
+
+    </session-factory>
+</hibernate-configuration>
