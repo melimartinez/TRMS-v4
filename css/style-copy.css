@@ -1,0 +1,42 @@
+/*
+interesting colors:
+
+245, 203, 88
+
+219, 204, 138
+
+115, 230, 189
+
+129, 219, 187
+
+*/
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.welcome-header {
+    font-weight: bold;
+}
+
+.primary-color {
+    background-color: rgb(129, 219, 187);
+    padding: 15px 25px;
+}
+
+.sign-in-header {
+    position: relative;
+    left: 5em;
+}
+
+.form-group {
+    margin: 25px 25px;
+    padding: 35px 35px;
+   border: thick double black;
+}
+
+.input-position {
+    position: relative;
+
+    left: 25em;
+}
