@@ -12,6 +12,7 @@ PostgreSQL, Java, JavaScript, HTML, CSS, Hibernate, JDBC, JUnit4, Maven, Postman
 
 - User can log in if they have an existing account
   - program will verify that they are truly an employee
+ 
 - In the portal, User will have various buttons to choose
   - "Submit New Form"
     - user will be
